@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SOW.Framework.Files\SOW.Framework.Files.csproj" />
+    <ProjectReference Include="..\SOW.Framework.Logger\SOW.Framework.Logger.csproj" />
+    <ProjectReference Include="..\SOW.Framework.Security.AcmeWrapper\SOW.Framework.Security.AcmeWrapper.csproj" />
+    <ProjectReference Include="..\SOW.Framework.Security.CloudflareWrapper\SOW.Framework.Security.CloudflareWrapper.csproj" />
+    <ProjectReference Include="..\SOW.Framework.Security.IISWrapper\SOW.Framework.Security.IISWrapper.csproj" />
+    <ProjectReference Include="..\SOW.Framework.Security.TaskScheduler\SOW.Framework.Security.TaskScheduler.csproj" />
+  </ItemGroup>
+
+</Project>

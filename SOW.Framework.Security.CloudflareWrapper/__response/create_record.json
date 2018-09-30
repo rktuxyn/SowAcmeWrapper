@@ -1,0 +1,24 @@
+{
+  "result": {
+    "id": "22cbaf3e6f6a9cbc0f551778b7c434c0",
+    "type": "TXT",
+    "name": "_acme-challenge.tripecosys.com",
+    "content": "ra6025VwqMpTTjclZ90LW35pOQ86wme9OBlXhvaR7Us",
+    "proxiable": false,
+    "proxied": false,
+    "ttl": 1,
+    "locked": false,
+    "zone_id": "ca130de2a806baca002033adc11cdf17",
+    "zone_name": "tripecosys.com",
+    "modified_on": "2018-09-13T20:32:57.076547Z",
+    "created_on": "2018-09-13T20:32:57.076547Z",
+    "meta": {
+      "auto_added": false,
+      "managed_by_apps": false,
+      "managed_by_argo_tunnel": false
+    }
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}

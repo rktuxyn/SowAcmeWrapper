@@ -1,0 +1,38 @@
+{
+	"CF_API":"https://api.cloudflare.com",
+	"CF_URI":"/client/v4/",
+	"winConfig":{
+		"WinUser":"XXXX",
+		"WinPassword":"XXXX"
+	},
+	"config":[
+	  {
+		"CF_AUTH_KEY":"XXX",
+		"Email": "xx@xx.com",
+		"Dir":"",
+		"Domain": [
+		  {
+			"StoreCertificate": true,
+			"StoreName": 1,
+			"CF_DNS_ZONE" : "xxxxxxxxxxxxxxxxxxx",
+			"ZoneName":"mydomain.com",
+			"DomainName": "*.mydomain.com",
+			"IsWildcard": true,
+			"IsSelfHost": true,
+			"IISSettings":{
+				"Site":["mydomain.com", "api.mydomain.com"],
+				"AppPool":["mydomain.com", "api.mydomain.com"],
+			},
+			"Csr":{
+			  "CountryName": "BN",
+			  "State": "Chittagong",
+			  "Locality": "Asia",
+			  "Organization": "Safe Online World",
+			  "OrganizationUnit": "50",
+			  "CommonName": "*.mydomain.com"
+			}
+		  }
+		]
+	  }
+	]
+}

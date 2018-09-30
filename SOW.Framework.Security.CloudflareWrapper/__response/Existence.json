@@ -1,0 +1,33 @@
+{
+  "result": [
+    {
+      "id": "2404b016569278ecf8ddb815a915c254",
+      "type": "TXT",
+      "name": "_acme-challenge.vssl.com.bd",
+      "content": "r6n_oOUOCLHbC0AYvC_qeWEdMMdUK8GkFdWISC0GYBQ",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "locked": false,
+      "zone_id": "bfff6223dafc4cb4e0b3e40055f9b2bd",
+      "zone_name": "vssl.com.bd",
+      "modified_on": "2018-09-13T22:01:23.617387Z",
+      "created_on": "2018-09-13T22:01:23.617387Z",
+      "meta": {
+        "auto_added": false,
+        "managed_by_apps": false,
+        "managed_by_argo_tunnel": false
+      }
+    }
+  ],
+  "result_info": {
+    "page": 1,
+    "per_page": 20,
+    "total_pages": 1,
+    "count": 1,
+    "total_count": 1
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}

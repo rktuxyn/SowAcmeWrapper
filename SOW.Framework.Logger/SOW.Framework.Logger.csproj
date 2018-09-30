@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+	<!--<RuntimeIdentifiers>win-x64</RuntimeIdentifiers>-->
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>sow.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+</Project>

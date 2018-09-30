@@ -1,0 +1,45 @@
+Log Generated on 9/30/2018 8:58:19 PM
+------------------------------------------------------
+9/30/2018 8:58:19 PM		------------------------------
+9/30/2018 8:58:19 PM		Opening...
+9/30/2018 8:58:19 PM		Null Argument...
+9/30/2018 8:58:19 PM		Program being closed!
+9/30/2018 8:58:43 PM		------------------------------
+9/30/2018 8:58:43 PM		Opening...
+9/30/2018 8:58:43 PM		Working for mssclang@outlook.com
+9/30/2018 8:58:43 PM		No data found for domain *.tripecosys.pc against Email mssclang@outlook.com!!!
+9/30/2018 8:58:43 PM		No data found for domain *.tripecosys.pc against Email mssclang@outlook.com!!!
+9/30/2018 8:58:43 PM		   at SOW.Framework.Security.LetsEncrypt.AcmeWrapper.Init(String web, IConfig config, ILogger logger, Int32 mxtry, CancellationToken ct) in D:\___PROJECT\__SOW\SOW\.net_Core_App\SOW.Framework.Security.AcmeWrapper\AcmeWrapper.cs:line 67
+   at SOW.Framework.Security.LetsEncrypt.AcmeWrapper..ctor(IConfig config, String web, String acmeApiServer, ILogger logger, Int32 mxtry, CancellationToken ct) in D:\___PROJECT\__SOW\SOW\.net_Core_App\SOW.Framework.Security.AcmeWrapper\AcmeWrapper.cs:line 91
+   at SowAcmeWrapper.Program.<>c__DisplayClass9_0.<<Main>b__1>d.MoveNext() in D:\___PROJECT\__SOW\SOW\.net_Core_App\SowAcmeWrapper\Program.cs:line 126
+9/30/2018 8:58:43 PM		Program being closed!
+9/30/2018 8:59:12 PM		------------------------------
+9/30/2018 8:59:12 PM		Opening...
+9/30/2018 8:59:12 PM		Working for mssclang@outlook.com
+9/30/2018 8:59:12 PM		Working for *.tripecosys.com
+9/30/2018 8:59:12 PM		Check if valid Certificate exists for tripecosys.com
+9/30/2018 8:59:12 PM		A valid Certificate found for tripecosys.com; Cert Serial:: 2FCE8A822258539241403B9EAF6EAC1D
+9/30/2018 8:59:12 PM		Installing Certificate for tripecosys.com; Cert Serial:: 2FCE8A822258539241403B9EAF6EAC1D
+9/30/2018 8:59:12 PM		Certificate already exists for tripecosys.com; Cert Serial:: 2FCE8A822258539241403B9EAF6EAC1D
+9/30/2018 8:59:12 PM		Bind Certificate for tripecosys.com
+9/30/2018 8:59:12 PM		Certificate process completed for tripecosys.com
+9/30/2018 8:59:12 PM		Creating .bat file for Schedule runner for tripecosys.com
+9/30/2018 8:59:13 PM		.bat file creation completed for Schedule runner for tripecosys.com
+9/30/2018 8:59:13 PM		Register new Task Schedule for Renew the Certificate for tripecosys.com
+9/30/2018 8:59:14 PM		Task Schedule Registration completed for tripecosys.com
+9/30/2018 8:59:14 PM		Program being closed!
+9/30/2018 8:59:18 PM		------------------------------
+9/30/2018 8:59:18 PM		Opening...
+9/30/2018 8:59:18 PM		Working for mssclang@outlook.com
+9/30/2018 8:59:18 PM		Working for *.tripecosys.com
+9/30/2018 8:59:18 PM		Check if valid Certificate exists for tripecosys.com
+9/30/2018 8:59:19 PM		A valid Certificate found for tripecosys.com; Cert Serial:: 2FCE8A822258539241403B9EAF6EAC1D
+9/30/2018 8:59:19 PM		Installing Certificate for tripecosys.com; Cert Serial:: 2FCE8A822258539241403B9EAF6EAC1D
+9/30/2018 8:59:19 PM		Certificate already exists for tripecosys.com; Cert Serial:: 2FCE8A822258539241403B9EAF6EAC1D
+9/30/2018 8:59:19 PM		Bind Certificate for tripecosys.com
+9/30/2018 8:59:19 PM		Certificate process completed for tripecosys.com
+9/30/2018 8:59:19 PM		Creating .bat file for Schedule runner for tripecosys.com
+9/30/2018 8:59:19 PM		.bat file creation completed for Schedule runner for tripecosys.com
+9/30/2018 8:59:19 PM		Register new Task Schedule for Renew the Certificate for tripecosys.com
+9/30/2018 8:59:19 PM		Task Schedule Registration completed for tripecosys.com
+9/30/2018 8:59:19 PM		Program being closed!

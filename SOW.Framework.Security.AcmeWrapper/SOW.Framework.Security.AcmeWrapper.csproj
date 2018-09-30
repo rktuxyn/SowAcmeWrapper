@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+	<!--<RuntimeIdentifiers>win-x64</RuntimeIdentifiers>-->
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>sow.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Certes" Version="2.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SOW.Framework.Files\SOW.Framework.Files.csproj" />
+    <ProjectReference Include="..\SOW.Framework.Logger\SOW.Framework.Logger.csproj" />
+    <ProjectReference Include="..\SOW.Framework.Security.CloudflareWrapper\SOW.Framework.Security.CloudflareWrapper.csproj" />
+    <ProjectReference Include="..\SOW.Framework.Security.IISWrapper\SOW.Framework.Security.IISWrapper.csproj" />
+  </ItemGroup>
+
+</Project>
